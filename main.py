@@ -57,7 +57,7 @@ def main():
     global args, best_prec1
     args = parser.parse_args()
 
-    wandb.login(key="647e50adb12fd19103925b4d7f4528d96e6b1c6d")
+    wandb.login(key="-")
     wandb.init(project="unet-foveal")
 
     # create model
